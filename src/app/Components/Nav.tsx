@@ -34,7 +34,7 @@ const Nav: React.FC = () => {
   };
 
   return (
-    <main className="w-full bg-inherit mx-20 text-black">
+    <main className="w-full bg-inheritlg:mx-20 md:mx-10 mx-5  text-black">
       <div className="flex items-center justify-between font-semibold text-xs font-noto-sans py-4 px-4 md:px-0 bg-inherit border-b border-black">
         <div className="flex items-center">
           <Image

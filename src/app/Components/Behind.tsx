@@ -3,7 +3,7 @@ import Image from "next/legacy/image";
 export default function Behind() {
   return (
     <div className="mb-8 mt-20 text-black">
-      <section className="container mx-auto grid lg:grid-cols-3  grid-cols-1 gap-12">
+      <section className="lg:mx-20 md:mx-10 mx-5 grid lg:grid-cols-3  grid-cols-1 gap-12">
         <div className="mx-5 ">
           <Image
             className="relative "

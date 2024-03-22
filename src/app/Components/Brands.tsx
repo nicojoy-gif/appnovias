@@ -72,7 +72,7 @@ export default function Brands() {
           </div>
         </div>
       </section>
-      <div className="relative border border-black mx-20 my-8 ">
+      <div className="relative border border-black lg:mx-20 md:mx-10 mx-5  my-8 ">
         <Image
           src="/div.elementor-background-overlay.svg"
           alt="Apponovi Logo"
