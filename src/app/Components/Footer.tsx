@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='text-black'>
     <footer className="bg-white  lg:h-64 h-full border-b border-black my-5 ">
-      <div className="lg:mx-20 md:mx-10 mx-5  grid lg:grid-cols-7 md:grid-cols-3 grid-cols-1 gap-10">
+      <div className=" md:mx-10 mx-5  grid lg:grid-cols-7 md:grid-cols-3 grid-cols-1 gap-4">
         {/* First column */}
         <div className="lg:col-span-2 col-span-1 ">
          
@@ -24,8 +24,8 @@ const Footer = () => {
 
         {/* Second column */}
         <div className="col-span-1 ">
-          <h2 className="text-sm mb-4">SUPPORT</h2>
-         <ul className='text-sm tracking-tight space-y-3'>
+          <h2 className="text-[13px] mb-4">SUPPORT</h2>
+         <ul className='text-[13px] tracking-tight space-y-3'>
             <li>Help & Contact Us</li>
             <li>Return & Refunds</li>
             <li>Online Stores</li>
@@ -35,8 +35,8 @@ const Footer = () => {
 
         {/* Third column */}
         <div className="col-span-1 ">
-          <h2 className="text-sm mb-4">COMPANY</h2>
-         <ul className='text-sm tracking-tight space-y-3'>
+          <h2 className="text-[13px] mb-4">COMPANY</h2>
+         <ul className='text-[13px] tracking-tight space-y-3'>
             <li>
                 <div className='w-20 h-4 bg-black'></div>
             </li>
@@ -54,8 +54,8 @@ const Footer = () => {
 
         {/* Fourth column */}
         <div className="col-span-1 ">
-          <h2 className="text-sm mb-4">LOCATIONS</h2>
-         <ul className='text-sm tracking-tight space-y-3'>
+          <h2 className="text-[13px] mb-4">LOCATIONS</h2>
+         <ul className='text-[13px] tracking-tight space-y-3'>
             <li>Vienna, Hansalgasse, Austria</li>
             <li>Berlin, Buschallee, Germany</li>
             <li>The Piazza, London, UK</li>
@@ -79,9 +79,9 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-    <div className='pb-5 px-5 mx-20 flex items-center justify-between '>
+    <div className='pb-5 px-5 mx-5 md:mx-10 flex items-center justify-between '>
 
-<div className='flex uppercase text-sm items-center'>
+<div className='flex uppercase text-[13px] items-center'>
 © 2023  <span className='w-20 ml-1 h-4 bg-black'>
     
     </span> ,All Rights Reserved

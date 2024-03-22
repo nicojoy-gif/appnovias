@@ -31,8 +31,7 @@ const ProductItem: React.FC<ProductItemProps> = ({
           className="relative  h-96"
           src={imageSrc}
           alt="Product image"
-          width={1000}
-          height={1000}
+         
           layout="fill"
           objectFit="cover"
           priority
