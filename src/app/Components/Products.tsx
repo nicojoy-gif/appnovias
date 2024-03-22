@@ -6,7 +6,7 @@ export default function Products() {
   return (
     <main className="text-black">
       <Hero />
-      <div className="bg-white container mx-auto min-h-screen h-full">
+      <div className="bg-white mx-10 min-h-screen h-full">
         <p className="py-20  lg:w-1/2 w-full text-xl px-5 font-noto-sans mx-auto text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

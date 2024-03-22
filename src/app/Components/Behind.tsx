@@ -28,10 +28,10 @@ export default function Behind() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <div className="font-noto-sans flex px-5 flex-col">
-            <h1 className="text-3xl  w-4/6">
+            <h1 className="text-2xl  w-4/6">
               Meet The Artists Behind The Corsen Maria & Sophia
             </h1>
-            <p className="text-lg w-5/6 py-3 font-nunito-sans">
+            <p className=" w-5/6 py-3 font-nunito-sans">
               Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna.
             </p>

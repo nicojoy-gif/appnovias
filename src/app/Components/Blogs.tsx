@@ -41,7 +41,7 @@ export default function Blogs(){
     <h1 className="text-3xl">Read Our Blog Posts</h1>
     <p className="lg:w-full py-2  w-5/6">Lorem ipsum dolor sit amet, consectetur adipiscing ectetur elit,<br /> sed do eiusmod.</p>
 </div>
-<div className="grid container mx-auto gap-12 lg:grid-cols-3 items-center grid-cols-1">
+<div className="grid mx-20 gap-12 lg:grid-cols-3 items-center grid-cols-1">
 {blogItems.map((item, index) => (
         <BlogItem
           key={index} 
