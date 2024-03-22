@@ -3,7 +3,7 @@ import Image from "next/legacy/image";
 export default function Behind() {
   return (
     <div className="mb-8 mt-20 text-black">
-      <section className="lg:mx-20 md:mx-10 mx-5 grid lg:grid-cols-3  grid-cols-1 ">
+      <section className="lg:mx-20 md:mx-10 mx-5 grid lg:grid-cols-3 gap-3 grid-cols-1 ">
         <div className="mx-5 ">
           <Image
             className="relative "
@@ -27,7 +27,7 @@ export default function Behind() {
           />
         </div>
         <div className="flex flex-col items-center justify-center">
-          <div className="font-noto-sans flex px-5 flex-col">
+          <div className="font-noto-sans flex md:px-10 px-5 flex-col">
             <h1 className="text-2xl  w-4/6">
               Meet The Artists Behind The Corsen Maria & Sophia
             </h1>

@@ -12,14 +12,14 @@ export default function Newsletter() {
         objectFit="cover"
       />
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center px-4 ">
-        <h2 className="text-xl lg:text-4xl mb-7 font-noto-sans">
+        <h2 className="text-xl lg:text-3xl mb-7 font-noto-sans">
           Sign up to our newsletter for all the <br />latest news & discounts.
         </h2>
         <div className="relative w-full max-w-sm mx-auto">
           <input
             type="email"
             placeholder="E-mail address"
-            className="w-full bg-transparent placeholder-font-nunito-sans placeholder-text-black py-2 border-b border-black focus:outline-none"
+            className="w-full bg-transparent placeholder:font-nunito-sans placeholder:text-black py-2 border-b border-black focus:outline-none"
           />
           <button className="absolute top-3 right-2">
             <ArrowRightIcon className="w-6 h-6 text-black" />

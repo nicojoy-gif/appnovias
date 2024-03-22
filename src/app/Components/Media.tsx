@@ -1,75 +1,91 @@
-"use client";
-import { useState, useEffect } from "react";
-import Image from "next/image";
-import Purpose from "./Purpose";
+"use client"
 
-export default function Media() {
-  const [slideIndex, setSlideIndex] = useState(0);
+import Image from "next/legacy/image"
+import Purpose from "./Purpose"
 
-  const nextSlide = () => {
-    setSlideIndex((prevIndex) => (prevIndex + 1) % 2);
-  };
-
-  const prevSlide = () => {
-    setSlideIndex((prevIndex) => (prevIndex - 1 + 2) % 2);
-  };
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 3000); // Adjust the interval duration as needed
-
-    return () => clearInterval(interval);
-  }, [slideIndex]);
-
+export default function Media(){
   return (
-    <div>
-      <div className="container text-black font-noto-sans mx-auto">
-        <h1 className="text-2xl pt-8">Instagram</h1>
-        <p className="text-lg tracking-tight font-nunito-sans">
-          Follow us on @qodeinteractive
-        </p>
-      </div>
-      <section className="my-6 grid grid-cols-8 gap-6">
-        <div className="relative">
-          <Image
-            src={`/div.qodef-e (${slideIndex}).png`}
-            alt="Apponovi Logo"
-            width={200}
-            height={300}
-            priority
-          />
-          <div
-            className="absolute top-0 left-0 w-full h-full cursor-pointer"
-            onClick={prevSlide}
-          ></div>
-        </div>
-        <div className="relative ">
-          <Image
-            src={`/div.qodef-e (${(slideIndex + 1) % 2}).png`}
-            alt="Apponovi Logo"
-            width={200}
-            height={300}
-            priority
-          />
-          <div
-            className="absolute top-0 right-0 w-full h-full cursor-pointer"
-            onClick={nextSlide}
-          ></div>
-        </div>
-        {[...Array(6)].map((_, index) => (
-          <div key={index} className="relative">
-            <Image
-              src={`/div.qodef-e (${index}).png`}
+      <div>
+          <div className="mx-10 text-black font-noto-sans ">
+<h1 className="text-2xl pt-8">Instagram</h1>
+<p className="text-lg tracking-tight font-nunito-sans">Follow us on @qodeinteractive</p>
+
+          </div>
+          <section className="my-6 flex lg:flex-nowrap h-full lg:flex-row flex-col justify-center flex-wrap gap-6">
+<div className="col-span-1 lg:h-full h-36 ">
+<Image
+              className="relative "
+              src="/div.qodef-e (0).png"
               alt="Apponovi Logo"
-              width={1000}
-              height={300}
+              width={200}
+              height={600}
               priority
             />
-          </div>
-        ))}
-      </section>
-      <Purpose />
-    </div>
-  );
+</div>
+<div className="col-span-2 lg:h-full h-36">
+<Image
+              className="relative "
+              src="/div.qodef-e (1).png"
+              alt="Apponovi Logo"
+              width={500}
+              height={600}
+              priority
+            />
+</div>
+<div className="col-span-2 lg:h-full h-36">
+<Image
+              className="relative "
+              src="/div.qodef-e (2).png"
+              alt="Apponovi Logo"
+              width={500}
+              height={600}
+              priority
+            />
+</div>
+<div className="col-span-2 ">
+<Image
+              className="relative "
+              src="/div.qodef-e (3).png"
+              alt="Apponovi Logo"
+              width={500}
+              height={600}
+              priority
+            />
+</div>
+<div className="col-span-2">
+<Image
+              className="relative "
+              src="/div.qodef-e (4).png"
+              alt="Apponovi Logo"
+              width={500}
+              height={600}
+              priority
+            />
+</div>
+<div className="col-span-2">
+<Image
+              className="relative "
+              src="/div.qodef-e (5).png"
+              alt="Apponovi Logo"
+              width={500}
+              height={600}
+              priority
+            />
+</div>
+<div className="col-span-1">
+<Image
+              className="relative "
+              src="/div.qodef-e (6).png"
+              alt="Apponovi Logo"
+              width={200}
+              height={600}
+              priority
+            />
+</div>
+</section>
+<section className="my-6">
+<Purpose />
+</section>
+      </div>
+  )
 }

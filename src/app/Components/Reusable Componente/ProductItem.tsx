@@ -1,6 +1,6 @@
 import Image from "next/legacy/image";
 import { BookmarkIcon, ClipboardIcon, EyeIcon } from "@heroicons/react/outline";
-import ProductList from "../Dummy List/Productlist";
+
 interface ProductItemProps {
   imageSrc: string;
   isNew?: boolean;
