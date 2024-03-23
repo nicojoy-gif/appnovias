@@ -21,8 +21,8 @@ export default function Hero() {
       </div>
       <Arrows />
       <div className="flex items-center justify-center absolute bottom-5 left-0 right-0">
-        <div className="border-b border-black w-full  my-6  md:mx-10 mx-5  px-20">
-          <h2 className="text-4xl font-noto-sans">Mixed Textiles</h2>
+        <div className="border-b border-black w-full  my-6  md:mx-10 mx-5  lg:px-20 md:px-10 px-5">
+          <h2 className="lg:text-4xl md:text-2xl text-lg font-noto-sans">Mixed Textiles</h2>
           <p className="py-2 text-lg w-full md:w-1/4 tracking-tight leading-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod.

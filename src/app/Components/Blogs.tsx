@@ -38,8 +38,8 @@ export default function Blogs() {
   return (
     <div className="bg-white text-black h-full lg:py-14 py-0 flex flex-col items-center justify-center font-noto-sans ">
       <div className="text-center flex py-8 flex-col items-center ">
-        <h1 className="text-3xl">Read Our Blog Posts</h1>
-        <p className="lg:w-full py-2  w-5/6">
+        <h1 className="lg:text-3xl md:text-xl text-lg">Read Our Blog Posts</h1>
+        <p className="lg:w-full lg:text-md text-sm  py-2  w-5/6">
           Lorem ipsum dolor sit amet, consectetur adipiscing ectetur elit,
           <br /> sed do eiusmod.
         </p>

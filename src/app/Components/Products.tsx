@@ -6,15 +6,15 @@ export default function Products() {
   return (
     <main className="text-black">
       <Hero />
-      <div className="bg-white mx-10 min-h-screen h-full">
+      <div className="bg-white lg:mx-10 mx-2 min-h-screen h-full">
         <p className="py-20  lg:w-3/6 w-full text-xl px-5 font-noto-sans mx-auto text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud.
         </p>
 
-        <div className="flex mx-5 justify-between my-5 items-center">
-          <ul className="flex font-noto-sans font-semibold text-xs space-x-12 items-center">
+        <div className="flex flex-col lg:flex-row mx-5 justify-between my-5 lg:items-center items-start">
+          <ul className="flex flex-col lg:flex-row font-noto-sans font-semibold text-xs lg:space-x-12 md:space-x-6 space-x-0 lg:items-center items-start">
             <li className="">ALL PRODUCTS</li>
             <li className="">LIFESTYLE</li>
             <li className="">BRAND</li>
@@ -25,7 +25,7 @@ export default function Products() {
             <ChevronDownIcon className="w-3 h-3" />
           </div>
         </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 mx-5 grid-cols mb-12">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 lg:mx-5 mx-2 grid-cols mb-12">
           {ProductList.map((product, index) => (
             <ProductItem
               key={index}

@@ -17,7 +17,7 @@ return (
        <Newsletter />
        <Behind />
        <Media />
-       <Footer />
+      <Footer />
     </div>
 )
 }

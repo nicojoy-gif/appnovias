@@ -80,9 +80,9 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className="pb-5 px-5 mx-5 md:mx-10 flex items-center justify-between ">
+      <div className="pb-5 lg:px-5 px-0 mx-5 md:mx-10 flex lg:flex-row flex-col items-center justify-between ">
         <div className="flex uppercase text-[13px] items-center">
-          © 2023 <span className="w-20 ml-1 h-4 bg-black"></span> ,All Rights
+          © 2023 <span className="hidden lg:block w-20 ml-1 h-4 bg-black"></span> ,All Rights
           Reserved
         </div>
         <div className="flex">

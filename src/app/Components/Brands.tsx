@@ -20,7 +20,7 @@ export default function Brands() {
             <Arrows />
           </div>
           <div className="flex items-center text-center justify-center">
-            <p className="text-2xl w-2/3 py-2 font-noto-sans">
+            <p className="lg:text-2xl  w-2/3  py-2 font-noto-sans">
               Accusantium doloremque laudantium, totam rem aperiam. Sed ut
               perspiciatis unde omnis iste natus error sit voluptatem.
             </p>
@@ -28,7 +28,7 @@ export default function Brands() {
           <div className="my-5">
             <XIcon className="w-4  h-4" />
           </div>
-          <div className="grid grid-cols-5 my-5 gap-12">
+          <div className="grid grid-cols-5 my-5 lg:gap-12 gap-4">
             <Image
               className="relative  "
               src="/Video-clients-img-2.png.svg"

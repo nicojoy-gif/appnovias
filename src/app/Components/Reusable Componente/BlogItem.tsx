@@ -52,7 +52,7 @@ const BlogItem: React.FC<BlogItemProps> = ({
 
       {/* Title */}
       <div className="py-3 flex justify-center">
-        <p className="text-xl text-center">{title}</p>
+        <p className="lg:text-xl text-md text-center">{title}</p>
       </div>
 
       {/* Read More */}
