@@ -1,44 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* styles.css */
+.shadow-blue {
+  box-shadow: 0px 4px 24px 0px #EEEEEE;
+}
+.shadow-dark{
+  box-shadow: 34.85px 29.63px 48.34px 0px #3366FF0D;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-.font-noto-sans {
-  font-family: 'Noto Sans', sans-serif;
-}
-
-.font-nunito-sans {
-  font-family: 'Nunito Sans', sans-serif;
-}
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
 }
